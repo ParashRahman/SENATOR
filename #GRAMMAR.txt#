@@ -1,0 +1,21 @@
+sentence:
+
+subject interjection? predicate
+
+subject:
+article SimpleNouns.txt
+article adjective noun
+questioner predicate
+
+article:
+Article.txt
+
+predicate:
+simple_verb
+connecting_verb subject
+modal_verb simple_verb
+
+simple_verb:
+adverb SimpleVerbs.txt
+
+adverb:

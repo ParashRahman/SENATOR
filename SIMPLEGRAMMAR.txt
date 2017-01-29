@@ -1,0 +1,6 @@
+sentence:
+word word
+
+word:
+Words.txt
+word word
