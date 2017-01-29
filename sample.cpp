@@ -23,9 +23,13 @@ private:
     "people",
     "are",
     "super",
-    "cool" };
+    "cool",
+  };
+  
 public:
   TITLEGenerator() {
+    int seed = time(NULL);
+    srand(seed);
   }
   std::string sentence(int complexity) {
     int NUM_RULES = 1;
@@ -82,10 +86,10 @@ public:
     exit(1);
   }
 };
-/*
+
 int main() {
   TITLEGenerator tG;
   
   std::cout << tG.sentence(3) << std::endl;
 }
-*/
+
